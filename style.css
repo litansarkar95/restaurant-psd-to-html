@@ -4,7 +4,7 @@
     list-style: none;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
 
 }
 header{
@@ -70,4 +70,47 @@ header h2{
     color: #000;
     text-transform: uppercase;
     font-weight: 900;
+}
+
+
+.best-seller{
+    margin:5%;
+    text-align: center;
+
+}
+
+.seller-part{
+    width: 20%;
+    float: left;
+    margin-left:10%;
+    margin-top: 5%;
+    padding-bottom: 10%;
+}
+.seller-part img{
+    border-radius:50%;
+    width:150px;
+    height: 150px;
+}
+
+
+.best-seller h2{
+    text-align: center;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 60px;
+    color: #000;
+}
+
+.best-seller h3{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    color: #333333;
+}
+
+.seller-part p{
+    font-family: 'monospace';
+    color: #333333;
+    text-align: left;
+   
 }
